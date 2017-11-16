@@ -8,15 +8,15 @@
     </head>
     <body>    
         <div style="background: black;">
-            <iframe id="photo-competition" src="https://micrositestaging.kaskus.co.id/ktkm/endpoint/photo_competition" width="100%" frameborder="0"></iframe>
+            <iframe id="photo-competition" src="https://microsite.kaskus.dev/ktkm/endpoint/photo_competition" width="100%" frameborder="0"></iframe>
         </div>
     </body>
-    <script src="https://micrositestaging.kaskus.co.id/ms/assets/ktkm/js/jquery.min.js"></script>
+    <script src="https://microsite.kaskus.dev/ms/assets/ktkm/js/jquery.min.js"></script>
     <script type="text/javascript">
         window.addEventListener('message', function(e) {
             try{
                 var origin = e.origin || e.originalEvent.origin;
-                if('https://micrositestaging.kaskus.co.id' === origin)
+                if('https://microsite.kaskus.dev' === origin)
                 {
                     var json = JSON.parse(e.data);
                     var iframe = document.getElementById(json.iframe_id);;
