@@ -416,19 +416,26 @@ function checkObject(a) {
 }
 
 function stickSidebar() {
-    if (leaderboardHeight = $("#bottom-leaderboard").length && $(".main-content").width() > 689 ? 100 : 0, sidebar.height() < $(".main-content").height())
-        if (windowPanel.scrollTop() > heightright - windowPanel.height() + momod.height() + 15 && mediaQuery.matches)
-            if (windowPanel.scrollTop() > footer.offset().top - windowPanel.height() - 40 - leaderboardHeight) {
-                var a = windowPanel.scrollTop() - (footer.offset().top - windowPanel.height() - leaderboardHeight);
-                sidebar.css({
-                    position: "fixed",
-                    bottom: a + 40
-                })
-            } else sidebar.css({
-                position: "fixed",
-                bottom: 0
-            });
-    else sidebar.css("position", "static")
+	leaderboardHeight = ($('#bottom-leaderboard').length && $('.main-content').width() > 689) ? 100 : 0;
+
+	if( sidebar.height() < $('.main-content').height() ){
+		if( windowPanel.scrollTop() > ( heightright - windowPanel.height() ) + momod.height() + 15 && mediaQuery.matches ){
+			if( windowPanel.scrollTop() > ( footer.offset().top - windowPanel.height() - 40 - leaderboardHeight) ){
+				var footerHeight = windowPanel.scrollTop() - ( footer.offset().top - windowPanel.height() - leaderboardHeight);
+				sidebar.css({
+					position: 'fixed',
+					bottom: footerHeight + 40
+				});
+			}else{
+				sidebar.css({
+					position: 'fixed',
+					bottom: 0
+				});
+			}
+		}else{
+			sidebar.css('position', 'static');
+		}
+	}
 }
 
 function stickSidebarLanding() {
