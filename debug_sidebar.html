@@ -606,41 +606,7 @@ _comscore.push({ c1: "2", c2: 20767306 });
 	</div>
 </div>
 <script>
-$(document).ready(function(){
-	$(document).on('click','#btn_more',function(){
-		$('#btn_more').html("Loading....");
-		var limit = 20;
-		var list = $('#load_list').find('.column');
-		var strCount = list.length;
-		var thread_collection_id = $(this).data("article");
-		$.ajax({
-			url:"/articles/add_more/"+thread_collection_id+"/"+strCount,
-			method:"GET",
-			success: function(data)
-			{
-				var count = $(data).find('.column').length;
-				if(data != '')
-				{
-					$('#remove_row').before(data);
-					if(count == limit)
-					{
-						$('#btn_more').html("Lanjut Lagi, Gan!");
-					}
-					else
-					{
-						$('#btn_more').html("Sudah Habis, Gan!");	
-						$('#btn_more').attr('disabled', 'disabled');
-					}
-				}
-				else
-				{
-					$('#btn_more').html("Sudah Habis, Gan!");	
-					$('#btn_more').attr('disabled', 'disabled');
-				}
-			}
-		})
-	})
-})
+
 </script>
 		<div id="floating_notice" class="c-notification-wrap" style="display: none">
 			<div class="c-notification">
