@@ -35,8 +35,10 @@
         setTimeout(function() {
           var iframe = document.getElementsByTagName('iframe');
           iframe[0].style = 'height: calc(100% - 60px)';
+          iframe[0].className = 'testgdpv';
           iframe[0].setAttribute('scrolling', 'yes');
         }, 1000);
+      }());
       }());
     </script>
     <h4>FOOTER</h4>
