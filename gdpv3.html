@@ -30,6 +30,14 @@
         js.src = "https://jobs.dev365.gdpventure.com/js/iframe_handler.min.js";
         fjs.parentNode.insertBefore(js, fjs)
       }(document, 'script', 'jobs-js'));
+	    
+	    (function() {
+        setTimeout(function() {
+          var iframe = document.getElementsByTagName('iframe');
+          iframe[0].style = 'height: calc(100% - 60px)';
+          iframe[0].setAttribute('scrolling', 'yes');
+        }, 1000);
+      }());
     </script>
     <h4>FOOTER</h4>
 
