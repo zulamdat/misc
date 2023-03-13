@@ -106,9 +106,7 @@
         "type": "object",
         "required": [
           "id",
-          "NIK",
-          "Name",
-          "Date of Birth"
+          "NIK"
         ],
         "properties": {
           "id": {
@@ -117,12 +115,6 @@
             "format": "uri"
           },
           "NIK": {
-            "type": "integer"
-          },
-          "Name": {
-            "type": "string"
-          },
-          "Date of Birth": {
             "type": "integer"
           }
         }
