@@ -13,8 +13,8 @@
                 "type": "@type",
                 "vocab": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/custom-schema.md",
                 "xsd": "http://www.w3.org/2001/XMLSchema",
-                "NIK": {
-                    "@id": "vocab:NIK",
+                "nikNumber": {
+                    "@id": "vocab:nikNumber",
                     "@type": "xsd:integer"
                 }
             }
