@@ -16,14 +16,6 @@
                 "NIK": {
                     "@id": "vocab:NIK",
                     "@type": "xsd:integer"
-                },
-                "Name": {
-                    "@id": "vocab:Name",
-                    "@type": "xsd:string"
-                },
-                "Date of Birth": {
-                    "@id": "vocab:Date of Birth",
-                    "@type": "xsd:integer"
                 }
             }
         }
