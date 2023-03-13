@@ -105,8 +105,7 @@
       "credentialSubject": {
         "type": "object",
         "required": [
-          "id",
-          "NIK"
+          "nikNumber"
         ],
         "properties": {
           "id": {
@@ -114,7 +113,7 @@
             "type": "string",
             "format": "uri"
           },
-          "NIK": {
+          "nikNumber": {
             "type": "integer"
           }
         }
