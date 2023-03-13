@@ -3,7 +3,7 @@
     "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/custom-schema.json-ld",
+        "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/custom-schema.jsonld",
         "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/custom-schema.json"
       }
     },
