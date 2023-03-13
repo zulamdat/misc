@@ -1,0 +1,31 @@
+{
+    "@context": [{
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "KTP": {
+            "@id": "https://gist.githubusercontent.com/zulamdat/93c6cea73cf4b5bcdb7fbb7c8aa7488b/raw/e00496ea06cfb7d3088a8b42cb7ff7e3f1dea1f4/custom-schema.json-ld",
+            "@context" : {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "vocab": "https://gist.githubusercontent.com/zulamdat/93c6cea73cf4b5bcdb7fbb7c8aa7488b/raw/e00496ea06cfb7d3088a8b42cb7ff7e3f1dea1f4/custom-schema.md",
+                "xsd": "http://www.w3.org/2001/XMLSchema",
+                "NIK": {
+                    "@id": "vocab:NIK",
+                    "@type": "xsd:integer"
+                },
+                "Name": {
+                    "@id": "vocab:Name",
+                    "@type": "xsd:string"
+                },
+                "Date of Birth": {
+                    "@id": "vocab:Date of Birth",
+                    "@type": "xsd:integer"
+                }
+            }
+        }
+    }]
+}
