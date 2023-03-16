@@ -1,0 +1,24 @@
+{
+    "@context": [
+    {
+        "@version": 1.1,
+        "@protected": true,
+        "id": "@id",
+        "type": "@type",
+        "KtpElCredential": {
+            "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/custom-schema.jsonld",
+            "@context" : {
+                "@version": 1.1,
+                "@protected": true,
+                "id": "@id",
+                "type": "@type",
+                "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/custom-schema.md",
+                "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md",
+                "nikNumber": {
+                    "@id": "ktp-vocab:nikNumber",
+                    "@type": "serialization:IndexDataSlotA"
+                }
+            }
+        }
+    }]
+}

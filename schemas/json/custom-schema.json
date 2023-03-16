@@ -1,12 +1,15 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "type": "object",
     "$metadata": {
       "uris": {
-        "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/custom-schema.jsonld",
-        "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/custom-schema.json"
-      }
+        "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/custom-schema.jsonld",
+        "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/custom-schema.json"
+      },
+      "serialization": {
+        "IndexDataSlotA": "nikNumber"
+      } 
     },
+    "type": "object",
     "required": [
       "@context",
       "id",
@@ -114,7 +117,7 @@
             "format": "uri"
           },
           "nikNumber": {
-            "type": "integer"
+            "type": "string"
           }
         }
       }
