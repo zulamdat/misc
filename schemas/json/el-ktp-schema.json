@@ -110,7 +110,7 @@
       "required": [
         "nik",
         "name",
-        "expirationDate"
+        "expiredDate"
       ],
       "properties": {
         "id": {

@@ -13,7 +13,7 @@
               "id": "@id",
               "type": "@type",
               "ektp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/el-ktp-vocab.md",
-              "serialization": "https://github.com/iden3/claim-schema-vocab/blob/main/credentials/serialization.md",
+              "serialization": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/serialization.md",
               "xsd": "http://www.w3.org/2001/XMLSchema#",
               "nik": {
                   "@id": "ektp-vocab:nik",
