@@ -119,7 +119,7 @@
           "format": "uri"
         },
         "nik": {
-          "type": "string"
+          "type": "integer"
         },
         "name": {
           "type": "string"
