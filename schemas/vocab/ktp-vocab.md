@@ -14,12 +14,12 @@ nama represent person name
   "nama": "Alice"
 ```
 
-# expiredDate
+# berlakuHingga
 
-expiredDate represent person id card expired date
+berlakuHingga represent person id card expired date
 
 ```
-  "expiredDate": "Seumur Hidup"
+  "berlakuHingga": "Seumur Hidup"
 ```
 
 # photo
@@ -139,5 +139,5 @@ provinsi represent person provinsi
 rtRw represent person rt rw
 
 ```
-  "rtRw": "010013"
+  "rtRw": "010/013"
 ```

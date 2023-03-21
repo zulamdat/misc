@@ -110,7 +110,7 @@
       "required": [
         "nik",
         "nama",
-        "expiredDate"
+        "berlakuHingga"
       ],
       "properties": {
         "id": {
@@ -124,7 +124,7 @@
         "nama": {
           "type": "string"
         },
-        "expiredDate": {
+        "berlakuHingga": {
           "type": "string"
         },
         "photo": {

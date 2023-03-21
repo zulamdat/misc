@@ -23,8 +23,8 @@
                   "@id": "ktp-vocab:nama",
                   "@type": "xsd:string"
               },
-              "expiredDate": {
-                  "@id": "ktp-vocab:expiredDate",
+              "berlakuHingga": {
+                  "@id": "ktp-vocab:berlakuHingga",
                   "@type": "xsd:string"
               },
               "photo": {
