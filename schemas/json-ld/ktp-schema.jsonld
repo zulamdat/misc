@@ -6,18 +6,17 @@
       "id": "@id",
       "type": "@type",
       "KtpCredential": {
-          "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/ktp-schema.jsonld",
+          "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/ktp-schema.jsonld#KtpCredential",
           "@context" : {
               "@version": 1.1,
               "@protected": true,
               "id": "@id",
               "type": "@type",
               "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/ktp-vocab.md",
-              "serialization": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/serialization.md",
               "xsd": "http://www.w3.org/2001/XMLSchema#",
               "nik": {
                   "@id": "ktp-vocab:nik",
-                  "@type": "serialization:IndexDataSlotA"
+                  "@type": "xsd:integer"
               },
               "nama": {
                   "@id": "ktp-vocab:nama",

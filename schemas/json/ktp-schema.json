@@ -4,10 +4,7 @@
     "uris": {
       "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/ktp-schema.jsonld",
       "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/ktp-schema.json"
-    },
-    "serialization": {
-      "IndexDataSlotA": "nik"
-    } 
+    }
   },
   "type": "object",
   "required": [
