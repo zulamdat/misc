@@ -5,14 +5,14 @@
       "@protected": true,
       "id": "@id",
       "type": "@type",
-      "KtpCredential": {
-          "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/ktp-schema.jsonld#KtpCredential",
+      "KycBank": {
+          "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/swiss/json-ld/kyc-bank-schema.jsonld#KycBank",
           "@context" : {
               "@version": 1.1,
               "@protected": true,
               "id": "@id",
               "type": "@type",
-              "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/ktp-vocab.md",
+              "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/swiss/vocab/kyc-bank-vocab.md",
               "xsd": "http://www.w3.org/2001/XMLSchema#",
               "nik": {
                   "@id": "ktp-vocab:nik",
@@ -85,6 +85,18 @@
               "rtRw": {
                   "@id": "ktp-vocab:rtRw",
                   "@type": "xsd:string"
+              },
+              "noTelp": {
+                  "@id": "ktp-vocab:noTelp",
+                  "@type": "xsd:string"
+              },
+              "sumberPenghasilan": {
+                  "@id": "ktp-vocab:sumberPenghasilan",
+                  "@type": "xsd:string"
+              },
+              "penghasilan": {
+                  "@id": "ktp-vocab:penghasilan",
+                  "@type": "xsd:integer"
               }
           }
       }
