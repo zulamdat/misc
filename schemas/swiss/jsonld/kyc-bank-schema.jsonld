@@ -12,90 +12,90 @@
               "@protected": true,
               "id": "@id",
               "type": "@type",
-              "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/swiss/vocab/kyc-bank-vocab.md",
+              "kyc-bank-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/swiss/vocab/kyc-bank-vocab.md",
               "xsd": "http://www.w3.org/2001/XMLSchema#",
               "nik": {
-                  "@id": "ktp-vocab:nik",
+                  "@id": "kyc-bank-vocab:nik",
                   "@type": "xsd:integer"
               },
               "nama": {
-                  "@id": "ktp-vocab:nama",
+                  "@id": "kyc-bank-vocab:nama",
                   "@type": "xsd:string"
               },
               "berlakuHingga": {
-                  "@id": "ktp-vocab:berlakuHingga",
+                  "@id": "kyc-bank-vocab:berlakuHingga",
                   "@type": "xsd:string"
               },
               "photo": {
-                  "@id": "ktp-vocab:photo",
+                  "@id": "kyc-bank-vocab:photo",
                   "@type": "xsd:string"
               },
               "pekerjaan": {
-                  "@id": "ktp-vocab:pekerjaan",
+                  "@id": "kyc-bank-vocab:pekerjaan",
                   "@type": "xsd:string"
               },
               "statusPerkawinan": {
-                  "@id": "ktp-vocab:statusPerkawinan",
+                  "@id": "kyc-bank-vocab:statusPerkawinan",
                   "@type": "xsd:string"
               },
               "golonganDarah": {
-                  "@id": "ktp-vocab:golonganDarah",
+                  "@id": "kyc-bank-vocab:golonganDarah",
                   "@type": "xsd:string"
               },
               "agama": {
-                  "@id": "ktp-vocab:agama",
+                  "@id": "kyc-bank-vocab:agama",
                   "@type": "xsd:string"
               },
               "tanggalLahir": {
-                  "@id": "ktp-vocab:tanggalLahir",
+                  "@id": "kyc-bank-vocab:tanggalLahir",
                   "@type": "xsd:integer"
               },
               "tempatLahir": {
-                  "@id": "ktp-vocab:tempatLahir",
+                  "@id": "kyc-bank-vocab:tempatLahir",
                   "@type": "xsd:string"
               },
               "alamat": {
-                  "@id": "ktp-vocab:alamat",
+                  "@id": "kyc-bank-vocab:alamat",
                   "@type": "xsd:string"
               },
               "jenisKelamin": {
-                  "@id": "ktp-vocab:jenisKelamin",
+                  "@id": "kyc-bank-vocab:jenisKelamin",
                   "@type": "xsd:string"
               },
               "kecamatan": {
-                  "@id": "ktp-vocab:kecamatan",
+                  "@id": "kyc-bank-vocab:kecamatan",
                   "@type": "xsd:string"
               },
               "kelurahanDesa": {
-                  "@id": "ktp-vocab:kelurahanDesa",
+                  "@id": "kyc-bank-vocab:kelurahanDesa",
                   "@type": "xsd:string"
               },
               "kewarganegaraan": {
-                  "@id": "ktp-vocab:kewarganegaraan",
+                  "@id": "kyc-bank-vocab:kewarganegaraan",
                   "@type": "xsd:string"
               },
               "kotaKabupaten": {
-                  "@id": "ktp-vocab:kotaKabupaten",
+                  "@id": "kyc-bank-vocab:kotaKabupaten",
                   "@type": "xsd:string"
               },
               "provinsi": {
-                  "@id": "ktp-vocab:provinsi",
+                  "@id": "kyc-bank-vocab:provinsi",
                   "@type": "xsd:string"
               },
               "rtRw": {
-                  "@id": "ktp-vocab:rtRw",
+                  "@id": "kyc-bank-vocab:rtRw",
                   "@type": "xsd:string"
               },
               "noTelp": {
-                  "@id": "ktp-vocab:noTelp",
+                  "@id": "kyc-bank-vocab:noTelp",
                   "@type": "xsd:string"
               },
               "sumberPenghasilan": {
-                  "@id": "ktp-vocab:sumberPenghasilan",
+                  "@id": "kyc-bank-vocab:sumberPenghasilan",
                   "@type": "xsd:string"
               },
               "penghasilan": {
-                  "@id": "ktp-vocab:penghasilan",
+                  "@id": "kyc-bank-vocab:penghasilan",
                   "@type": "xsd:integer"
               }
           }

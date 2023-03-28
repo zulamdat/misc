@@ -17,7 +17,7 @@
   "kotaKabupaten": "BANDAR LAMPUNG",
   "provinsi": "LAMPUNG",
   "rtRw": "014/000",
-  "phoneNumber": "0852-1234-5678",
-  "sourceOfIncome": "GAJI",
-  "salary": 2000000
+  "noTelp": "085212345678",
+  "sumberPenghasilan": "GAJI",
+  "penghasilan": 2000000
 }
