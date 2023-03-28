@@ -160,7 +160,7 @@ sumberPenghasilan represent person source of income
 
 # penghasilan
 
-penghasilan represent person rt rw
+penghasilan represent person salary
 
 ```
   "penghasilan": 2000000
