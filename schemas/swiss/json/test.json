@@ -54,24 +54,7 @@
           "type": "string",
           "format": "uri"
         },
-        "nik": { "type": "integer" },
-        "nama": { "type": "string" },
-        "berlakuHingga": { "type": "string" },
-        "photo": { "type": "string" },
-        "pekerjaan": { "type": "string" },
-        "statusPerkawinan": { "type": "string" },
-        "golonganDarah": { "type": "string" },
-        "agama": { "type": "string" },
-        "tanggalLahir": { "type": "integer" },
-        "tempatLahir": { "type": "string" },
-        "alamat": { "type": "string" },
-        "jenisKelamin": { "type": "string" },
-        "kecamatan": { "type": "string" },
-        "kelurahanDesa": { "type": "string" },
-        "kewarganegaraan": { "type": "string" },
-        "kotaKabupaten": { "type": "string" },
-        "provinsi": { "type": "string" },
-        "rtRw": { "type": "string" }
+        "nik": { "type": "integer" }
       }
     }
   }
