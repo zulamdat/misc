@@ -2,8 +2,8 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/swiss/jsonld/test.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/swiss/json/test.json"
+      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/test.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/test.json"
     }
   },
   "type": "object",
