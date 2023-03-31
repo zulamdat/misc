@@ -1,3 +1,3 @@
-# bitString
+# nik
 
-Your bit String
+Your nik

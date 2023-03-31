@@ -13,8 +13,8 @@
           "id": "@id",
           "type": "@type",
           "simple-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/simple-schema.md",
-          "bitString": {
-            "@id": "simple-vocab:bitString",
+          "nik": {
+            "@id": "simple-vocab:nik",
             "@type": "xsd:integer"
           }
         }

@@ -81,14 +81,14 @@
     },
     "credentialSubject": {
       "type": "object",
-      "required": ["bitString"],
+      "required": ["nik"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
           "type": "string",
           "format": "uri"
         },
-        "bitString": {
+        "nik": {
           "type": "integer"
         }
       }
