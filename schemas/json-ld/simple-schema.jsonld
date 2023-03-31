@@ -14,7 +14,7 @@
           "type": "@type",
           "simple-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/simple-schema.md",
           "bitString": {
-            "@id": "ktp-vocab:bitString",
+            "@id": "simple-vocab:bitString",
             "@type": "xsd:integer"
           }
         }
