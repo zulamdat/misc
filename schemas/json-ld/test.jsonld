@@ -12,7 +12,7 @@
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/swiss/vocab/ktp-vocab.md",
+          "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/simple-schema.md",
           "nik": {
             "@id": "ktp-vocab:nik",
             "@type:": "xsd:integer"
