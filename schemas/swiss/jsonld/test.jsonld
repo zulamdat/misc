@@ -13,7 +13,6 @@
           "id": "@id",
           "type": "@type",
           "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/swiss/vocab/ktp-vocab.md",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
           "nik": {
             "@id": "ktp-vocab:nik",
             "@type:": "xsd:integer"
