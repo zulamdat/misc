@@ -88,7 +88,9 @@
           "type": "string",
           "format": "uri"
         },
-        "nik": { "type": "integer" }
+        "nik": {
+          "type": "integer"
+        }
       }
     }
   }
