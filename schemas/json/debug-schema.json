@@ -153,8 +153,8 @@
   },
   "$metadata": {
     "uris": {
-      "jsonLdContext": "https://f93e-111-94-186-68.ap.ngrok.io/api/schemas/polygon/ktp-ld",
-      "jsonSchema": "https://f93e-111-94-186-68.ap.ngrok.io/api/schemas/polygon/ktp"
+      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/debug-schema.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/debug-schema.json"
     }
   }
 }
