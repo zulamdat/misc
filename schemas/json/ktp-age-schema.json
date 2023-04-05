@@ -41,14 +41,13 @@
     "updatable": { "type": "boolean" },
     "credentialSubject": {
       "type": "object",
-      "required": ["id", "nik", "tanggalLahir"],
+      "required": ["id", "tanggalLahir"],
       "properties": {
         "id": {
           "title": "Credential Subject ID",
           "type": "string",
           "format": "uri"
         },
-        "nik": { "type": "integer" },
         "tanggalLahir": { "type": "integer" }
       }
     }

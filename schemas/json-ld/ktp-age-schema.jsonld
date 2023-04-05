@@ -12,10 +12,6 @@
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "nik": {
-            "@id": "ktp-vocab:nik",
-            "@type": "xsd:integer"
-          },
           "tanggalLahir": {
             "@id": "ktp-vocab:tanggalLahir",
             "@type": "xsd:integer"
