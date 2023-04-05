@@ -1,12 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
-  "$metadata": {
-    "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/ktp-age-schema.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/ktp-age-schema.json"
-    }
-  },
   "required": [
     "@context",
     "id",
@@ -56,6 +50,12 @@
         },
         "tanggalLahir": { "type": "integer" }
       }
+    }
+  },
+  "$metadata": {
+    "uris": {
+      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/ktp-age-schema.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/ktp-age-schema.json"
     }
   }
 }
