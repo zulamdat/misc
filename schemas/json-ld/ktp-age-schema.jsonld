@@ -12,6 +12,7 @@
           "@protected": true,
           "id": "@id",
           "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
           "tanggalLahir": {
             "@id": "ktp-vocab:tanggalLahir",
             "@type": "xsd:integer"
