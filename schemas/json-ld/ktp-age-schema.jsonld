@@ -12,8 +12,10 @@
           "@protected": true,
           "id": "@id",
           "type": "@type",
-          "ktp-vocab": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/vocab/ktp-age-schema.md#",
-          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "nik": {
+            "@id": "ktp-vocab:nik",
+            "@type": "xsd:integer"
+          },
           "tanggalLahir": {
             "@id": "ktp-vocab:tanggalLahir",
             "@type": "xsd:integer"
