@@ -49,12 +49,12 @@ Value
   "statusPerkawinan": 0
 ```
 
-# statusPerkawinanValue
+# statusPerkawinanDetail
 
-statusPerkawinanValue represent person marriage status match with our enum value
+statusPerkawinanDetail represent person marriage status match with our enum value
 
 ```
-  "statusPerkawinanValue": "KAWIN"
+  "statusPerkawinanDetail": "KAWIN"
 ```
 
 # golonganDarah
@@ -76,12 +76,12 @@ Value
   "golonganDarah": 0,
 ```
 
-# golonganDarahValue
+# golonganDarahDetail
 
-golonganDarahValue represent person blood type match with our enum value
+golonganDarahDetail represent person blood type match with our enum value
 
 ```
-  "golonganDarahValue": "A"
+  "golonganDarahDetail": "A"
 ```
 
 # agama
@@ -105,12 +105,12 @@ Value
   "agama": 0
 ```
 
-# agamaValue
+# agamaDetail
 
-agamaValue represent person religion match with our enum value
+agamaDetail represent person religion match with our enum value
 
 ```
-  "agama": "ISLAM"
+  "agamaDetail": "ISLAM"
 ```
 
 # tanggalLahir
@@ -154,12 +154,12 @@ Value
   "jenisKelamin": 0
 ```
 
-# jenisKelaminValue
+# jenisKelaminDetail
 
-jenisKelaminValue represent person gender match with our enum value
+jenisKelaminDetail represent person gender match with our enum value
 
 ```
-  "jenisKelaminValue": "LAKI_LAKI"
+  "jenisKelaminDetail": "LAKI_LAKI"
 ```
 
 # kecamatan
@@ -195,12 +195,12 @@ Value
   "kewarganegaraan": 0
 ```
 
-# kewarganegaraanValue
+# kewarganegaraanDetail
 
-kewarganegaraanValue represent person kewarganegaraan match with our enum value
+kewarganegaraanDetail represent person kewarganegaraan match with our enum value
 
 ```
-  "kewarganegaraan": "WNI"
+  "kewarganegaraanDetail": "WNI"
 ```
 
 # kotaKabupaten
