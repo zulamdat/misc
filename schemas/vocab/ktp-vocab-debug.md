@@ -19,15 +19,7 @@ nama represent person name
 berlakuHingga represent person id card expired date
 
 ```
-  "berlakuHingga": "Seumur Hidup"
-```
-
-# photo
-
-photo represent person photo
-
-```
-  "photo": "base64stringPhoto"
+  "berlakuHingga": "SEUMUR-HIDUP"
 ```
 
 # pekerjaan
@@ -40,31 +32,90 @@ pekerjaan represent person job
 
 # statusPerkawinan
 
-statusPerkawinan represent person marriage status
+statusPerkawinan represent person marriage status match with our enum
 
 ```
-  "statusPerkawinan": "Kawin"
+enum StatusPerkawinan {
+  KAWIN,
+  BELUM_KAWIN,
+  CERAI_HIDUP,
+  CERAI_MATI,
+}
+```
+
+Value
+
+```
+  "statusPerkawinan": 0
+```
+
+# statusPerkawinanValue
+
+statusPerkawinanValue represent person marriage status match with our enum value
+
+```
+  "statusPerkawinanValue": "KAWIN"
 ```
 
 # golonganDarah
 
-golonganDarah represent person blood type
+golonganDarah represent person blood type match with our enum
 
 ```
-  "golonganDarah": "A"
+enum GolonganDarah {
+  A,
+  B,
+  AB,
+  O,
+}
+```
+
+Value
+
+```
+  "golonganDarah": 0,
+```
+
+# golonganDarahValue
+
+golonganDarahValue represent person blood type match with our enum value
+
+```
+  "golonganDarahValue": "A"
 ```
 
 # agama
 
-agama represent person religion
+agama represent person religion match with our enum
 
 ```
-  "agama": "Islam"
+enum Agama {
+  ISLAM,
+  KRISTEN,
+  KATOLIK,
+  HINDU,
+  BUDHA,
+  KONGHUCU,
+}
+```
+
+Value
+
+```
+  "agama": 0
+```
+
+# agamaValue
+
+agamaValue represent person religion match with our enum value
+
+```
+  "agama": "ISLAM"
 ```
 
 # tanggalLahir
 
-tanggalLahir represent person birth date
+tanggalLahir represent person birth date format `yyyymmdd`
 
 ```
   "tanggalLahir": 19900131
@@ -88,10 +139,27 @@ alamat represent person home address
 
 # jenisKelamin
 
-jenisKelamin represent person gender
+jenisKelamin represent person gender match with our enum
 
 ```
-  "jenisKelamin": "Laki-laki"
+enum JenisKelamin {
+  LAKI_LAKI,
+  PEREMPUAN,
+}
+```
+
+Value
+
+```
+  "jenisKelamin": 0
+```
+
+# jenisKelaminValue
+
+jenisKelaminValue represent person gender match with our enum value
+
+```
+  "jenisKelaminValue": "LAKI_LAKI"
 ```
 
 # kecamatan
@@ -112,7 +180,24 @@ kelurahanDesa represent person kelurahan
 
 # kewarganegaraan
 
-kewarganegaraan represent person kewarganegaraan
+kewarganegaraan represent person kewarganegaraan match with our enum
+
+```
+enum Kewarganegaraan {
+  WNI,
+  WNA,
+}
+```
+
+Value
+
+```
+  "kewarganegaraan": 0
+```
+
+# kewarganegaraanValue
+
+kewarganegaraanValue represent person kewarganegaraan match with our enum value
 
 ```
   "kewarganegaraan": "WNI"
@@ -136,7 +221,7 @@ provinsi represent person provinsi
 
 # rtRw
 
-rtRw represent person rt rw
+rtRw represent person rt rw with format `000/000`
 
 ```
   "rtRw": "010/013"
