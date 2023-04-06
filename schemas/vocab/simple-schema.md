@@ -1,3 +1,0 @@
-# nik
-
-Your nik
