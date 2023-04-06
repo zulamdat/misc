@@ -1,0 +1,45 @@
+{
+  "@context": [
+  {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "EKtpCredential": {
+          "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/el-ktp-schema.jsonld",
+          "@context" : {
+              "@version": 1.1,
+              "@protected": true,
+              "id": "@id",
+              "type": "@type",
+              "ektp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/vocab/el-ktp-vocab.md",
+              "serialization": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/serialization.md",
+              "xsd": "http://www.w3.org/2001/XMLSchema#",
+              "nik": {
+                  "@id": "ektp-vocab:nik",
+                  "@type": "serialization:IndexDataSlotA"
+              },
+              "name": {
+                  "@id": "ektp-vocab:name",
+                  "@type": "xsd:string"
+              },
+              "expiredDate": {
+                  "@id": "ektp-vocab:expiredDate",
+                  "@type": "xsd:string"
+              },
+              "birthDate": {
+                  "@id": "ektp-vocab:birthDate",
+                  "@type": "xsd:integer"
+              },
+              "address": {
+                  "@id": "ektp-vocab:address",
+                  "@type": "xsd:string"
+              },
+              "bloodType": {
+                  "@id": "ektp-vocab:bloodType",
+                  "@type": "xsd:string"
+              }
+          }
+      }
+  }]
+}

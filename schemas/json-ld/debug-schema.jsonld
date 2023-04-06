@@ -1,0 +1,108 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "KtpCred": {
+        "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/debug-schema.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "ktp-vocab": "https://github.com/zulamdat/zulamdat.github.io/blob/schema-test/schemas/swiss/vocab/ktp-vocab.md",
+          "nik": {
+            "@id": "ktp-vocab:nik",
+            "@type": "xsd:integer"
+          },
+          "nama": {
+            "@id": "ktp-vocab:nama",
+            "@type": "xsd:string"
+          },
+          "berlakuHingga": {
+            "@id": "ktp-vocab:berlakuHingga",
+            "@type": "xsd:string"
+          },
+          "pekerjaan": {
+            "@id": "ktp-vocab:pekerjaan",
+            "@type": "xsd:string"
+          },
+          "statusPerkawinan": {
+            "@id": "ktp-vocab:statusPerkawinan",
+            "@type": "xsd:integer"
+          },
+          "statusPerkawinanValue": {
+            "@id": "ktp-vocab:statusPerkawinanValue",
+            "@type": "xsd:string"
+          },
+          "golonganDarah": {
+            "@id": "ktp-vocab:golonganDarah",
+            "@type": "xsd:integer"
+          },
+          "golonganDarahValue": {
+            "@id": "ktp-vocab:golonganDarahValue",
+            "@type": "xsd:string"
+          },
+          "agama": {
+            "@id": "ktp-vocab:agama",
+            "@type": "xsd:integer"
+          },
+          "agamaValue": {
+            "@id": "ktp-vocab:agamaValue",
+            "@type": "xsd:string"
+          },
+          "tanggalLahir": {
+            "@id": "ktp-vocab:tanggalLahir",
+            "@type": "xsd:integer"
+          },
+          "tempatLahir": {
+            "@id": "ktp-vocab:tempatLahir",
+            "@type": "xsd:string"
+          },
+          "alamat": {
+            "@id": "ktp-vocab:alamat",
+            "@type": "xsd:string"
+          },
+          "jenisKelamin": {
+            "@id": "ktp-vocab:jenisKelamin",
+            "@type": "xsd:integer"
+          },
+          "jenisKelaminValue": {
+            "@id": "ktp-vocab:jenisKelaminValue",
+            "@type": "xsd:string"
+          },
+          "kecamatan": {
+            "@id": "ktp-vocab:kecamatan",
+            "@type": "xsd:string"
+          },
+          "kelurahanDesa": {
+            "@id": "ktp-vocab:kelurahanDesa",
+            "@type": "xsd:string"
+          },
+          "kewarganegaraan": {
+            "@id": "ktp-vocab:kewarganegaraan",
+            "@type": "xsd:integer"
+          },
+          "kewarganegaraanValue": {
+            "@id": "ktp-vocab:kewarganegaraanValue",
+            "@type": "xsd:string"
+          },
+          "kotaKabupaten": {
+            "@id": "ktp-vocab:kotaKabupaten",
+            "@type": "xsd:string"
+          },
+          "provinsi": {
+            "@id": "ktp-vocab:provinsi",
+            "@type": "xsd:string"
+          },
+          "rtRw": {
+            "@id": "ktp-vocab:rtRw",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
