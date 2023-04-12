@@ -6,7 +6,7 @@
       "id": "@id",
       "type": "@type",
       "KtpCred": {
-        "@id": "http://localhost:3000/api/schemas/polygon/ktp-ld",
+        "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/swiss/schemas/json-ld/ktp.jsonld",
         "@context": {
           "@version": 1.1,
           "@protected": true,

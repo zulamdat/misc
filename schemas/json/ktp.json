@@ -75,8 +75,8 @@
   },
   "$metadata": {
     "uris": {
-      "jsonLdContext": "http://localhost:3000/api/schemas/polygon/ktp-ld",
-      "jsonSchema": "http://localhost:3000/api/schemas/polygon/ktp"
+      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/swiss/schemas/json-ld/ktp.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/swiss/schemas/json/ktp.json"
     }
   }
 }
