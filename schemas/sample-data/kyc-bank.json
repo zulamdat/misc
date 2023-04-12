@@ -1,0 +1,20 @@
+{
+  "nik": 1871010907930009,
+  "nama": "NICOJULIAN",
+  "pekerjaan": "KARYAWAN SWASTA",
+  "statusPerkawinan": 0,
+  "statusPerkawinanDetail": "KAWIN",
+  "tanggalLahir": 19930709,
+  "alamat": "JUS AGUNG WAY HALIM",
+  "jenisKelamin": 0,
+  "jenisKelaminDetail": "LAKI-LAKI",
+  "kewarganegaraan": 0,
+  "kewarganegaraanDetail": "WNI",
+  "kotaKabupaten": "BANDAR LAMPUNG",
+  "noRekening": 1234567890,
+  "noTelp": "081234567890",
+  "namaBank": "BANK BCA",
+  "gaji": 5000000,
+  "sumberPenghasilan": "GAJI",
+  "statusPekerjaan": "KARYAWAN TETAP"
+}
