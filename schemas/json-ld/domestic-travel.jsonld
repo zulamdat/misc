@@ -1,0 +1,80 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "DomesticTravelCred": {
+        "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/swiss/schemas/json-ld/domestic-travel.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "nik": {
+            "@id": "vocab:nik",
+            "@type": "xsd:integer"
+          },
+          "nama": {
+            "@id": "vocab:nama",
+            "@type": "xsd:string"
+          },
+          "tanggalLahir": {
+            "@id": "vocab:tanggalLahir",
+            "@type": "xsd:integer"
+          },
+          "alamat": {
+            "@id": "vocab:alamat",
+            "@type": "xsd:string"
+          },
+          "jenisKelamin": {
+            "@id": "vocab:jenisKelamin",
+            "@type": "xsd:integer"
+          },
+          "jenisKelaminDetail": {
+            "@id": "vocab:jenisKelaminDetail",
+            "@type": "xsd:string"
+          },
+          "kewarganegaraan": {
+            "@id": "vocab:kewarganegaraan",
+            "@type": "xsd:integer"
+          },
+          "kewarganegaraanDetail": {
+            "@id": "vocab:kewarganegaraanDetail",
+            "@type": "xsd:string"
+          },
+          "noTelp": {
+            "@id": "vocab:noTelp",
+            "@type": "xsd:string"
+          },
+          "tujuan": {
+            "@id": "vocab:tujuan",
+            "@type": "xsd:string"
+          },
+          "tanggalBerangkat": {
+            "@id": "vocab:tanggalBerangkat",
+            "@type": "xsd:integer"
+          },
+          "tanggalKembali": {
+            "@id": "vocab:tanggalKembali",
+            "@type": "xsd:integer"
+          },
+          "namaMaskapai": {
+            "@id": "vocab:namaMaskapai",
+            "@type": "xsd:string"
+          },
+          "noPenerbangan": {
+            "@id": "vocab:noPenerbangan",
+            "@type": "xsd:string"
+          },
+          "kotaAsal": {
+            "@id": "vocab:kotaAsal",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}

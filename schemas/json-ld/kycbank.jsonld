@@ -1,0 +1,92 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "KycBankCred": {
+        "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/swiss/schemas/json-ld/kycbank.jsonld",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "nik": {
+            "@id": "vocab:nik",
+            "@type": "xsd:integer"
+          },
+          "nama": {
+            "@id": "vocab:nama",
+            "@type": "xsd:string"
+          },
+          "pekerjaan": {
+            "@id": "vocab:pekerjaan",
+            "@type": "xsd:string"
+          },
+          "statusPerkawinan": {
+            "@id": "vocab:statusPerkawinan",
+            "@type": "xsd:integer"
+          },
+          "statusPerkawinanDetail": {
+            "@id": "vocab:statusPerkawinanDetail",
+            "@type": "xsd:string"
+          },
+          "tanggalLahir": {
+            "@id": "vocab:tanggalLahir",
+            "@type": "xsd:integer"
+          },
+          "alamat": {
+            "@id": "vocab:alamat",
+            "@type": "xsd:string"
+          },
+          "jenisKelamin": {
+            "@id": "vocab:jenisKelamin",
+            "@type": "xsd:integer"
+          },
+          "jenisKelaminDetail": {
+            "@id": "vocab:jenisKelaminDetail",
+            "@type": "xsd:string"
+          },
+          "kewarganegaraan": {
+            "@id": "vocab:kewarganegaraan",
+            "@type": "xsd:integer"
+          },
+          "kewarganegaraanDetail": {
+            "@id": "vocab:kewarganegaraanDetail",
+            "@type": "xsd:string"
+          },
+          "kotaKabupaten": {
+            "@id": "vocab:kotaKabupaten",
+            "@type": "xsd:string"
+          },
+          "noRekening": {
+            "@id": "vocab:noRekening",
+            "@type": "xsd:integer"
+          },
+          "noTelp": {
+            "@id": "vocab:noTelp",
+            "@type": "xsd:string"
+          },
+          "namaBank": {
+            "@id": "vocab:namaBank",
+            "@type": "xsd:string"
+          },
+          "gaji": {
+            "@id": "vocab:gaji",
+            "@type": "xsd:integer"
+          },
+          "sumberPenghasilan": {
+            "@id": "vocab:sumberPenghasilan",
+            "@type": "xsd:string"
+          },
+          "statusPekerjaan": {
+            "@id": "vocab:statusPekerjaan",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
