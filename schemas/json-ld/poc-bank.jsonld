@@ -1,0 +1,100 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "BankCredential": {
+        "@id": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/poc-bank.jsonld#BankCredential",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "nik": {
+            "@id": "vocab:nik",
+            "@type": "xsd:integer"
+          },
+          "nama": {
+            "@id": "vocab:nama",
+            "@type": "xsd:string"
+          },
+          "tempatLahir": {
+            "@id": "vocab:tempatLahir",
+            "@type": "xsd:string"
+          },
+          "tanggalLahir": {
+            "@id": "vocab:tanggalLahir",
+            "@type": "xsd:string"
+          },
+          "jenisKelamin": {
+            "@id": "vocab:jenisKelamin",
+            "@type": "xsd:string"
+          },
+          "golonganDarah": {
+            "@id": "vocab:golonganDarah",
+            "@type": "xsd:string"
+          },
+          "alamat": {
+            "@id": "vocab:alamat",
+            "@type": "xsd:string"
+          },
+          "rtRw": {
+            "@id": "vocab:rtRw",
+            "@type": "xsd:string"
+          },
+          "kelDesa": {
+            "@id": "vocab:kelDesa",
+            "@type": "xsd:string"
+          },
+          "kecamatan": {
+            "@id": "vocab:kecamatan",
+            "@type": "xsd:string"
+          },
+          "kotaKabupaten": {
+            "@id": "vocab:kotaKabupaten",
+            "@type": "xsd:string"
+          },
+          "provinsi": {
+            "@id": "vocab:provinsi",
+            "@type": "xsd:string"
+          },
+          "agama": {
+            "@id": "vocab:agama",
+            "@type": "xsd:string"
+          },
+          "statusPerkawinan": {
+            "@id": "vocab:statusPerkawinan",
+            "@type": "xsd:string"
+          },
+          "pekerjaan": {
+            "@id": "vocab:pekerjaan",
+            "@type": "xsd:string"
+          },
+          "kewarganegaraan": {
+            "@id": "vocab:kewarganegaraan",
+            "@type": "xsd:string"
+          },
+          "berlakuHingga": {
+            "@id": "vocab:berlakuHingga",
+            "@type": "xsd:string"
+          },
+          "email": {
+            "@id": "vocab:email",
+            "@type": "xsd:string"
+          },
+          "hp": {
+            "@id": "vocab:hp",
+            "@type": "xsd:string"
+          },
+          "bankAccount": {
+            "@id": "vocab:bankAccount",
+            "@type": "xsd:integer"
+          }
+        }
+      }
+    }
+  ]
+}
