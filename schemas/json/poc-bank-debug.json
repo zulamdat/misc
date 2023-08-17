@@ -12,33 +12,67 @@
     "issuer"
   ],
   "properties": {
-    "@context": { "type": ["string", "array", "object"] },
-    "id": { "type": "string" },
-    "type": { "type": ["string", "array"], "items": { "type": "string" } },
+    "@context": {
+      "type": ["string", "array", "object"]
+    },
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": ["string", "array"],
+      "items": {
+        "type": "string"
+      }
+    },
     "issuer": {
       "type": ["string", "object"],
       "format": "uri",
       "required": ["id"],
-      "properties": { "id": { "type": "string", "format": "uri" } }
+      "properties": {
+        "id": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
     },
-    "issuanceDate": { "type": "string", "format": "date-time" },
-    "expirationDate": { "type": "string", "format": "date-time" },
+    "issuanceDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "expirationDate": {
+      "type": "string",
+      "format": "date-time"
+    },
     "credentialSchema": {
       "type": "object",
       "required": ["id", "type"],
       "properties": {
-        "id": { "type": "string", "format": "uri" },
-        "type": { "type": "string" }
+        "id": {
+          "type": "string",
+          "format": "uri"
+        },
+        "type": {
+          "type": "string"
+        }
       }
     },
-    "subjectPosition": { "type": "string", "enum": ["none", "index", "value"] },
+    "subjectPosition": {
+      "type": "string",
+      "enum": ["none", "index", "value"]
+    },
     "merklizationRootPosition": {
       "type": "string",
       "enum": ["none", "index", "value"]
     },
-    "revNonce": { "type": "integer" },
-    "version": { "type": "integer" },
-    "updatable": { "type": "boolean" },
+    "revNonce": {
+      "type": "integer"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "updatable": {
+      "type": "boolean"
+    },
     "credentialSubject": {
       "type": "object",
       "required": ["id", "nik"],
@@ -53,6 +87,7 @@
         "tempat_lahir": { "type": "string" },
         "tanggal_lahir": { "type": "string" },
         "jenis_kelamin": { "type": "string" },
+        "golongan_darah": { "type": "string" },
         "alamat": { "type": "string" },
         "rt_rw": { "type": "string" },
         "kelurahan_desa": { "type": "string" },
@@ -63,7 +98,6 @@
         "status_perkawinan": { "type": "string" },
         "pekerjaan": { "type": "string" },
         "kewarganegaraan": { "type": "string" },
-        "golongan_darah": { "type": "string" },
         "berlaku_hingga": { "type": "string" },
         "email": { "type": "string" },
         "hp": { "type": "string" },
