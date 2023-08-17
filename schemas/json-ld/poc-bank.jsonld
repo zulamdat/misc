@@ -22,19 +22,19 @@
             "@type": "xsd:string"
           },
           "tempat_lahir": {
-            "@id": "vocab:tempatLahir",
+            "@id": "vocab:tempat_lahir",
             "@type": "xsd:string"
           },
           "tanggal_lahir": {
-            "@id": "vocab:tanggalLahir",
+            "@id": "vocab:tanggal_lahir",
             "@type": "xsd:string"
           },
           "jenis_kelamin": {
-            "@id": "vocab:jenisKelamin",
+            "@id": "vocab:jenis_kelamin",
             "@type": "xsd:string"
           },
           "golongan_darah": {
-            "@id": "vocab:golonganDarah",
+            "@id": "vocab:golongan_darah",
             "@type": "xsd:string"
           },
           "alamat": {
@@ -42,11 +42,11 @@
             "@type": "xsd:string"
           },
           "rt_rw": {
-            "@id": "vocab:rtRw",
+            "@id": "vocab:rt_rw",
             "@type": "xsd:string"
           },
           "kelurahan_desa": {
-            "@id": "vocab:kelDesa",
+            "@id": "vocab:kelurahan_desa",
             "@type": "xsd:string"
           },
           "kecamatan": {
@@ -54,7 +54,7 @@
             "@type": "xsd:string"
           },
           "kota_kabupaten": {
-            "@id": "vocab:kotaKabupaten",
+            "@id": "vocab:kota_kabupaten",
             "@type": "xsd:string"
           },
           "provinsi": {
@@ -66,7 +66,7 @@
             "@type": "xsd:string"
           },
           "status_perkawinan": {
-            "@id": "vocab:statusPerkawinan",
+            "@id": "vocab:status_perkawinan",
             "@type": "xsd:string"
           },
           "pekerjaan": {
@@ -78,7 +78,7 @@
             "@type": "xsd:string"
           },
           "berlaku_hingga": {
-            "@id": "vocab:berlakuHingga",
+            "@id": "vocab:berlaku_hingga",
             "@type": "xsd:string"
           },
           "email": {
@@ -90,7 +90,7 @@
             "@type": "xsd:string"
           },
           "bank_account": {
-            "@id": "vocab:bankAccount",
+            "@id": "vocab:bank_account",
             "@type": "xsd:string"
           }
         }
