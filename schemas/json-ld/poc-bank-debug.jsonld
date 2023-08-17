@@ -33,6 +33,10 @@
             "@id": "vocab:jenis_kelamin",
             "@type": "xsd:string"
           },
+          "golongan_darah": {
+            "@id": "vocab:golongan_darah",
+            "@type": "xsd:string"
+          },
           "alamat": {
             "@id": "vocab:alamat",
             "@type": "xsd:string"
@@ -71,10 +75,6 @@
           },
           "kewarganegaraan": {
             "@id": "vocab:kewarganegaraan",
-            "@type": "xsd:string"
-          },
-          "golongan_darah": {
-            "@id": "vocab:golongan_darah",
             "@type": "xsd:string"
           },
           "berlaku_hingga": {
