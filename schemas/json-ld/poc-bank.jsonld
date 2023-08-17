@@ -15,25 +15,25 @@
           "xsd": "http://www.w3.org/2001/XMLSchema#",
           "nik": {
             "@id": "vocab:nik",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
           },
           "nama": {
             "@id": "vocab:nama",
             "@type": "xsd:string"
           },
-          "tempatLahir": {
+          "tempat_lahir": {
             "@id": "vocab:tempatLahir",
             "@type": "xsd:string"
           },
-          "tanggalLahir": {
+          "tanggal_lahir": {
             "@id": "vocab:tanggalLahir",
             "@type": "xsd:string"
           },
-          "jenisKelamin": {
+          "jenis_kelamin": {
             "@id": "vocab:jenisKelamin",
             "@type": "xsd:string"
           },
-          "golonganDarah": {
+          "golongan_darah": {
             "@id": "vocab:golonganDarah",
             "@type": "xsd:string"
           },
@@ -41,11 +41,11 @@
             "@id": "vocab:alamat",
             "@type": "xsd:string"
           },
-          "rtRw": {
+          "rt_rw": {
             "@id": "vocab:rtRw",
             "@type": "xsd:string"
           },
-          "kelDesa": {
+          "kelurahan_desa": {
             "@id": "vocab:kelDesa",
             "@type": "xsd:string"
           },
@@ -53,7 +53,7 @@
             "@id": "vocab:kecamatan",
             "@type": "xsd:string"
           },
-          "kotaKabupaten": {
+          "kota_kabupaten": {
             "@id": "vocab:kotaKabupaten",
             "@type": "xsd:string"
           },
@@ -65,7 +65,7 @@
             "@id": "vocab:agama",
             "@type": "xsd:string"
           },
-          "statusPerkawinan": {
+          "status_perkawinan": {
             "@id": "vocab:statusPerkawinan",
             "@type": "xsd:string"
           },
@@ -77,7 +77,7 @@
             "@id": "vocab:kewarganegaraan",
             "@type": "xsd:string"
           },
-          "berlakuHingga": {
+          "berlaku_hingga": {
             "@id": "vocab:berlakuHingga",
             "@type": "xsd:string"
           },
@@ -89,9 +89,9 @@
             "@id": "vocab:hp",
             "@type": "xsd:string"
           },
-          "bankAccount": {
+          "bank_account": {
             "@id": "vocab:bankAccount",
-            "@type": "xsd:integer"
+            "@type": "xsd:string"
           }
         }
       }

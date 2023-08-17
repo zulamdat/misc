@@ -89,36 +89,36 @@
           "format": "uri"
         },
         "nik": {
-          "type": "integer"
+          "type": "string"
         },
         "nama": {
           "type": "string"
         },
-        "tempatLahir": {
+        "tempat_lahir": {
           "type": "string"
         },
-        "tanggalLahir": {
+        "tanggal_lahir": {
           "type": "string"
         },
-        "jenisKelamin": {
+        "jenis_kelamin": {
           "type": "string"
         },
-        "golonganDarah": {
+        "golongan_darah": {
           "type": "string"
         },
         "alamat": {
           "type": "string"
         },
-        "rtRw": {
+        "rt_rw": {
           "type": "string"
         },
-        "kelDesa": {
+        "kelurahan_desa": {
           "type": "string"
         },
         "kecamatan": {
           "type": "string"
         },
-        "kotaKabupaten": {
+        "kota_kabupaten": {
           "type": "string"
         },
         "provinsi": {
@@ -127,7 +127,7 @@
         "agama": {
           "type": "string"
         },
-        "statusPerkawinan": {
+        "status_perkawinan": {
           "type": "string"
         },
         "pekerjaan": {
@@ -136,7 +136,7 @@
         "kewarganegaraan": {
           "type": "string"
         },
-        "berlakuHingga": {
+        "berlaku_hingga": {
           "type": "string"
         },
         "email": {
@@ -145,8 +145,8 @@
         "hp": {
           "type": "string"
         },
-        "bankAccount": {
-          "type": "integer"
+        "bank_account": {
+          "type": "string"
         }
       }
     }
