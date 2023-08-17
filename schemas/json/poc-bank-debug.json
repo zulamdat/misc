@@ -1,5 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
+  "$metadata": {
+    "uris": {
+      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/poc-bank-debug.jsonld",
+      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/poc-bank-debug.json"
+    }
+  }
   "type": "object",
   "required": [
     "@context",
@@ -82,33 +88,67 @@
           "type": "string",
           "format": "uri"
         },
-        "nik": { "type": "string" },
-        "nama": { "type": "string" },
-        "tempat_lahir": { "type": "string" },
-        "tanggal_lahir": { "type": "string" },
-        "jenis_kelamin": { "type": "string" },
-        "golongan_darah": { "type": "string" },
-        "alamat": { "type": "string" },
-        "rt_rw": { "type": "string" },
-        "kelurahan_desa": { "type": "string" },
-        "kecamatan": { "type": "string" },
-        "kota_kabupaten": { "type": "string" },
-        "provinsi": { "type": "string" },
-        "agama": { "type": "string" },
-        "status_perkawinan": { "type": "string" },
-        "pekerjaan": { "type": "string" },
-        "kewarganegaraan": { "type": "string" },
-        "berlaku_hingga": { "type": "string" },
-        "email": { "type": "string" },
-        "hp": { "type": "string" },
-        "bank_account": { "type": "string" }
+        "nik": {
+          "type": "string"
+        },
+        "nama": {
+          "type": "string"
+        },
+        "tempat_lahir": {
+          "type": "string"
+        },
+        "tanggal_lahir": {
+          "type": "string"
+        },
+        "jenis_kelamin": {
+          "type": "string"
+        },
+        "golongan_darah": {
+          "type": "string"
+        },
+        "alamat": {
+          "type": "string"
+        },
+        "rt_rw": {
+          "type": "string"
+        },
+        "kelurahan_desa": {
+          "type": "string"
+        },
+        "kecamatan": {
+          "type": "string"
+        },
+        "kota_kabupaten": {
+          "type": "string"
+        },
+        "provinsi": {
+          "type": "string"
+        },
+        "agama": {
+          "type": "string"
+        },
+        "status_perkawinan": {
+          "type": "string"
+        },
+        "pekerjaan": {
+          "type": "string"
+        },
+        "kewarganegaraan": {
+          "type": "string"
+        },
+        "berlaku_hingga": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "hp": {
+          "type": "string"
+        },
+        "bank_account": {
+          "type": "string"
+        }
       }
-    }
-  },
-  "$metadata": {
-    "uris": {
-      "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/poc-bank-debug.jsonld",
-      "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/poc-bank-debug.json"
     }
   }
 }
