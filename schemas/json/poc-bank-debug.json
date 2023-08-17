@@ -5,7 +5,7 @@
       "jsonLdContext": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json-ld/poc-bank-debug.jsonld",
       "jsonSchema": "https://raw.githubusercontent.com/zulamdat/zulamdat.github.io/schema-test/schemas/json/poc-bank-debug.json"
     }
-  }
+  },
   "type": "object",
   "required": [
     "@context",
