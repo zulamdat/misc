@@ -1,0 +1,22 @@
+{
+  "nik": "3123212104900001",
+  "nama": "Rizky",
+  "tempat_lahir": "Jakarta",
+  "tanggal_lahir": "01 January 2000",
+  "jenis_kelamin": "Laki-laki",
+  "golongan_darah": "O",
+  "alamat": "Jl. Raya",
+  "rt_rw": "001/001",
+  "kelurahan_desa": "Cibinong",
+  "kecamatan": "Cibinong",
+  "kota_kabupaten": "Bogor",
+  "provinsi": "Jawa Barat",
+  "agama": "Islam",
+  "status_perkawinan": "Belum Kawin",
+  "pekerjaan": "Pelajar/Mahasiswa",
+  "kewarganegaraan": "WNI",
+  "berlaku_hingga": "Seumur Hidup",
+  "email": "rizky@mail.com",
+  "hp": "081234567890",
+  "bank_account": "1234567890"
+}
